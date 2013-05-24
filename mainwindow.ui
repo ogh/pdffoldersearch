@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLineEdit" name="txtSearchTerm"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnExecuteSearch">
+        <property name="text">
+         <string>Search</string>
+        </property>
+        <property name="autoDefault">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QListWidget" name="lstResults">
+      <property name="styleSheet">
+       <string notr="true">QListView::item:selected {
+	background: QLinearGradient(spread:reflect,x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(0,0,100, 100), stop: 0.2 rgba(0,0,100, 0), stop: 0.8 rgba(0,0,100, 0), stop: 1 rgba(0,0,100, 100));
+ }
+QListView::item{
+	background: QLinearGradient(spread:reflect,x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(100,100,100, 100), stop: 0.1 rgba(100,100,100, 0), stop: 0.9 rgba(100,100,100, 0), stop: 1 rgba(100,100,100, 100));
+}</string>
+      </property>
+      <property name="resizeMode">
+       <enum>QListView::Adjust</enum>
+      </property>
+      <property name="sortingEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>txtSearchTerm</sender>
+   <signal>returnPressed()</signal>
+   <receiver>btnExecuteSearch</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>256</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>23</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

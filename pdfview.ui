@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PDFview</class>
+ <widget class="QWidget" name="PDFview">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>707</width>
+    <height>454</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btnPreviousPage">
+       <property name="text">
+        <string>Previous page</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnNextPage">
+       <property name="text">
+        <string>Next page</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>687</width>
+        <height>374</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Ignored" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Show in Adobe Reader</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnNextPage</sender>
+   <signal>clicked()</signal>
+   <receiver>PDFview</receiver>
+   <slot>pageForward()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>526</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>353</x>
+     <y>226</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnPreviousPage</sender>
+   <signal>clicked()</signal>
+   <receiver>PDFview</receiver>
+   <slot>pageBack()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>180</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>353</x>
+     <y>226</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>pageForward()</slot>
+  <slot>pageBack()</slot>
+  <slot>setToPage(int)</slot>
+ </slots>
+</ui>
