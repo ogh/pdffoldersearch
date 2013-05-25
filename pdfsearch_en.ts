@@ -51,7 +51,8 @@ therefore, possible matches might be missing</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="160"/>
-        <source> please choose a more specific criterion</source>
+        <source> hits please choose a more specific criterion</source>
+        <oldsource> please choose a more specific criterion</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -117,7 +118,15 @@ therefore, possible matches might be missing</source>
     </message>
     <message>
         <location filename="main.cpp" line="49"/>
-        <source>Searchpath does not exist</source>
+        <source>Searchpath 
+</source>
+        <oldsource>Searchpath does not exist</oldsource>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="main.cpp" line="49"/>
+        <source>
+does not exist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

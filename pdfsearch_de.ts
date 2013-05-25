@@ -53,8 +53,9 @@ nicht lesen, deshalb könnten Ergebnisse fehlen</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="160"/>
-        <source> please choose a more specific criterion</source>
-        <translation> bitte wählen Sie ein spezifischeres Suchwort</translation>
+        <source> hits please choose a more specific criterion</source>
+        <oldsource> please choose a more specific criterion</oldsource>
+        <translation> Treffern erreicht, bitte wählen Sie ein spezifischeres Suchwort</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="184"/>
@@ -119,8 +120,18 @@ nicht lesen, deshalb könnten Ergebnisse fehlen</translation>
     </message>
     <message>
         <location filename="main.cpp" line="49"/>
-        <source>Searchpath does not exist</source>
-        <translation>Der Suchpfad existiert nicht</translation>
+        <source>Searchpath 
+</source>
+        <oldsource>Searchpath does not exist</oldsource>
+        <translation>Der Suchpfad 
+</translation>
+    </message>
+    <message>
+        <location filename="main.cpp" line="49"/>
+        <source>
+does not exist</source>
+        <translation>
+existiert nicht</translation>
     </message>
     <message>
         <location filename="main.cpp" line="56"/>
