@@ -28,4 +28,15 @@ To run it:
     2. (voluntary) The path to a copy of Adobe Reader
     3. (voluntary) The maximal number of possible hits (in order to prevent searches that take forever)
     
-I will probably add some binaries for Windows and Linux here soon.
+Here are binaries for windows and linux:
+    Windows:
+        http://anonoia.org/owncloud/public.php?service=files&t=0855a37fa0abd076a5e910e444fc46f4
+    Just extract the zip file. I provided a sample *.bat file for how to run the application.
+    Simply adjust the *.bat file to your computer and execute it.
+        
+    Linux:
+        http://anonoia.org/owncloud/public.php?service=files&t=bc91ab1211fb122fe4c6cc7771e14bd3
+    You need to have libpoppler-qt4 and qt4 installed on your system. I have compiled this
+    binary on Kubuntu 13.04.
+    
+Enjoy!
