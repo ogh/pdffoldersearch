@@ -157,7 +157,7 @@ bool MainWindow::searchPDFPostResults(const QFileInfo &fi, QString searchString)
             {
                 QMessageBox mbox;
                 mbox.setText(tr("Search has already reached the maximum of ") + QString::number(maxHits)
-                             + tr(" please choose a more specific criterion"));
+                             + tr(" hits please choose a more specific criterion"));
                 mbox.exec();
                 nHitsExceeded = true;
                 break;

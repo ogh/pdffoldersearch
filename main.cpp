@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
     {
         //If directory does not exist => show message and exit
         QMessageBox msgbox;
-        msgbox.setText(QApplication::tr("Searchpath does not exist"));
+        msgbox.setText(QApplication::tr("Searchpath \n") + searchPath + QApplication::tr("\ndoes not exist"));
         msgbox.exec();
         return EXIT_FAILURE;
     }
