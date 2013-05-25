@@ -44,5 +44,8 @@ binary on Kubuntu 13.04.
     
 [1]: http://anonoia.org/owncloud/public.php?service=files&t=0855a37fa0abd076a5e910e444fc46f4
 [2]: http://anonoia.org/owncloud/public.php?service=files&t=bc91ab1211fb122fe4c6cc7771e14bd3
+
+AND here is the corresponding blog entry:
+http://myvirtualbrain.blogspot.de/2013/05/a-pdf-search-tool.html
     
 Enjoy!
