@@ -31,13 +31,16 @@ To run it:
 Here are binaries for windows and linux:
 
     Windows:
-        http://anonoia.org/owncloud/public.php?service=files&t=0855a37fa0abd076a5e910e444fc46f4
+        Please get the binary [here][1]
     Just extract the zip file. I provided a sample *.bat file for how to run the application.
     Simply adjust the *.bat file to your computer and execute it.
         
     Linux:
-        http://anonoia.org/owncloud/public.php?service=files&t=bc91ab1211fb122fe4c6cc7771e14bd3
+        Please get the binary [here][2]
     You need to have libpoppler-qt4 and qt4 installed on your system. I have compiled this
     binary on Kubuntu 13.04.
+    
+[1]: http://anonoia.org/owncloud/public.php?service=files&t=0855a37fa0abd076a5e910e444fc46f4
+[2]: http://anonoia.org/owncloud/public.php?service=files&t=bc91ab1211fb122fe4c6cc7771e14bd3
     
 Enjoy!
